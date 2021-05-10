@@ -1,0 +1,43 @@
+h2{
+    font-family: sans-serif;
+    color: darkslategray;
+}
+
+table,tr, td
+{
+border: 4px ridge gold;
+border-radius: 5px;
+width: 33%;
+font-family: monospace;
+text-align: center;
+border-collapse: collapse;
+background-color:lightgoldenrodyellow;	
+margin: auto; 
+}
+
+
+.blink{
+		
+			
+		text-align: center;
+		
+ }
+
+	
+
+span{
+		font-size: 25px;
+		font-family: sans-serif;
+		color: darkslategray;
+        background-color: gold;
+		animation: blink 1s linear infinite;
+	        }
+@keyframes blink{
+			
+            25%{opacity: .25;}
+			
+			100%{opacity: 1;}
+
+		  }
+
+
