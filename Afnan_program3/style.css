@@ -1,0 +1,43 @@
+  
+* {
+      box-sizing: border-box;
+      margin: 1px;
+      padding: 1px;
+    }
+
+    body {
+      font-size: 18px;
+        background-color:cornsilk;
+        
+    }
+
+    header {
+      margin: 5px;
+    }
+    .main {
+      position: relative;
+        margin-left: 20px;
+      
+    }
+
+    .main img {
+      margin-left: 5%;
+      height: 300px;
+      width: auto;
+
+    }
+  #demo {
+position: absolute;
+      font-family: monospace;
+  margin-left:60%;
+padding-bottom:450px;
+  transform: translate(-50%, -50%);
+  }
+
+    footer {
+      background: gray;
+    }
+    footer p {
+      padding: 10px;
+    }
+  

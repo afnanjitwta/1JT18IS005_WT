@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>PlayStation 5</title>
+  
+</head>
+
+<body>
+  <header>
+    <a href="#home">Home</a>|
+    <a href="#places">Places</a>|
+    <a href="#gallery">Gallery</a>|
+    <a href="#aboutus">AboutUs</a>|
+    <a href="#search">Search</a>
+  </header>
+  <br>
+  <section class="main">
+    <h1 style="font-family: sans-serif" >
+      PlayStation 5
+    </h1>
+    <br>
+    <figure>
+    <img src="https://www.thenationalnews.com/image/policy:1.1100864:1603856152/PS5.png?f=16x9&w=1200&$p$f$w=80df49e" alt="PS5">
+    <figcaption><p>by <a href="#">Afnan Rahman</a> </p></figcaption></figure>
+
+<p id="demo"></p>
+
+
+
+    <br>
+    
+    <br>
+    <p style="font-family: sans-serif">
+      The <strong>PlayStation 5</strong> (PS5) is a home video game console developed by Sony Interactive Entertainment. Announced in 2019 as the successor to the PlayStation 4, the PS5 was released on November 12, 2020, in Australia, Japan, New Zealand, North America, Singapore and South Korea, with worldwide release following a week later. The PS5, along with Microsoft's Xbox Series X and Series S consoles, released the same month, are part of the ninth generation of video game consoles.
+      <br><br>
+
+    The platform was launched in two variants: a base model with an Ultra HD Blu-ray–compatible optical disc drive, and a Digital Edition lacking this drive, serving as a lower-cost model for those who prefer to buy games through digital download.
+    </p>
+    <br>
+    <p style="font-family: monospace">Year : 2021</p>
+    <p style="font-family: monospace">Date : 20th May </p>
+    <br>
+    <br>
+    <h2 style="font-family: sans-serif">Reviews</h2>
+    <br>
+      <p style="font-weight:bold; font-size:20px;font-family: monospace">Amazing!!</p><br><strong>Sam</strong>
+        ⭐⭐⭐⭐⭐ <br><br>
+    <p>A great upgrade to the console after PS4!!</p>
+    <br>
+    <hr>
+    <br>
+
+    <p style="font-weight:bold; font-size:20px; font-family: monospace">Good but costly </p><br>
+        <strong>Anonymous</strong>⭐⭐⭐<br><br>
+    <p> The concole is good but keeping the price as high as 50K is too much. They could've given some other PS accessories too.</p>
+    <br>
+    <hr><br>
+
+    <p style="font-weight:bold; font-size:20px; font-family: monospace">I'm a PS fan!! </p><br>
+        <strong>GamerBoi</strong>⭐⭐⭐⭐⭐ <br><br>
+    <p> PS is better than XBox in every aspect! That can be proved by the PS5 sales! XBox nowhere to be seen!! </p>
+  </section>
+  <br>
+  <section class="ending">
+    <a href="#home">Home</a>|
+    <a href="#places">Places</a>|
+    <a href="#gallery">Gallery</a>|
+    <a href="#aboutus">AboutUs</a>|
+    <a href="#search">Search</a>
+  </section>
+
+  <footer>
+    <p><i>Copyright &#169 2021 Sony Entertainment</i></p>
+  </footer>
+  <script>
+var var1 = setInterval(inTimer, 500);
+var fs = 5; //font size
+var ids = document.getElementById("demo");
+function inTimer()
+{
+ids.innerHTML = 'PlayStation 5';
+ids.setAttribute('style', "font-size: " + fs + "px; color: darkblue");
+fs += 5;
+if (fs >= 50)
+{
+clearInterval(var1); //paused
+var2 = setInterval(deTimer, 500);
+
+}
+}
+function deTimer() //fs = 50px
+{
+fs -= 5;
+ids.innerHTML = 'Sony Entertainment';
+ids.setAttribute('style', "font-size: " + fs + "px; color: black");
+if (fs == 5)
+{
+clearInterval(var2); //paused
+var1 = setInterval(inTimer, 500);
+}
+}
+</script>
+</body>
+
+</html>
